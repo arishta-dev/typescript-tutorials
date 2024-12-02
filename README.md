@@ -15,7 +15,7 @@ Welcome to the TypeScript Tutorials repository! This project is designed to help
 
 TypeScript is a language that builds on JavaScript by adding static type definitions. It offers improved tooling at any scale, making it easier to catch errors early and improve the overall development experience.
 
-This repository contains a series of tutorials and examples to help you understand and effectively use TypeScript in your projects.
+This repository contains a series of tutorials and practice exercises to help you understand and effectively use TypeScript in your projects.
 
 ## Getting Started
 
@@ -42,11 +42,11 @@ To get started with these tutorials, you'll need to have Node.js and npm install
 
 The tutorials are organized into lessons, each focusing on different aspects of TypeScript:
 
-- **Lesson 1:** Introduction to TypeScript and basic types
-- **Lesson 2:** Interfaces and classes
-- **Lesson 3:** Generics and advanced types
-- **Lesson 4:** Modules and namespaces
-- **Lesson 5:** Decorators and metadata
+- **Lesson 1:** Introduction to TypeScript 
+- **Lesson 2:** Basic types
+- **Lesson 3:** 
+- **Lesson 4:** 
+- **Lesson 5:** 
 
 Each lesson includes code examples and exercises to reinforce your learning.
 

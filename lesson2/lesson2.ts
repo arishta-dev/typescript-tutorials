@@ -73,6 +73,10 @@ type Point = {
 };
 let point: Point = { x: 10, y: 20 };
 
+// Type aliases can be used to give name to any type at all
+// eg. type ID = string | number | boolean; 
+
+
 // 13. Literal Types
 let literal: "exact" | "values" | "only" = "exact";
 
