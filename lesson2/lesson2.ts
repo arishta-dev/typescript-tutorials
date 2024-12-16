@@ -41,9 +41,19 @@ let unionVar: string | number = "hello";
 unionVar = 42; // also valid
 
 // 7. Intersection Type (must have all properties of both types)
-type Person = { name: string };
-type Employee = { id: number };
-type PersonEmployee = Person & Employee;
+type Person = { name: string; age: number };
+type Employee = { employeeId: number; department: string };
+
+type EmployeeDetails = Person & Employee & {address: string}
+
+const employee: EmployeeDetails = {
+    name: "John Doe",
+    age: 30,
+    employeeId: 12345,
+    department: "Engineering",
+    address: 'Jaipur'
+};
+
 
 // 8. Any Type (turns off type checking)
 let anyVar: any = "hello";
