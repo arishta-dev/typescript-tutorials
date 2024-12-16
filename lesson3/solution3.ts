@@ -82,4 +82,9 @@ function handleError(message: string): never {
     throw new Error("user not found");
 }
 
+// 8. rest params 
+function logUsernames(...usernames: string[]):void{
+    usernames.forEach(username => console.log(username));
+}
+
 export {};

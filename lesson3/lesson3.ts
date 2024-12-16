@@ -32,7 +32,7 @@ function sayHello(name: string="User"): string {
    return (`Hello ${name}`);
 }
 
-// optional parameter
+// optional parameter (? before the colon)
 function sayHello2(name?:string):string{
     return (`Hello ${name || 'User'}`); // either display Hello User or Hello name
 }
@@ -70,3 +70,13 @@ function createUser(): User {
 const user = createUser();
 
 
+// 8. readonly keyword (to prevent re assignment)
+
+type Book = {
+    readonly _id: number, 
+    name: string
+}
+
+let book: Book = {'_id': 1, 'name': 'harry potter'};
+book.name = 'harry potter and the chamber of secrets';
+// school1._id = '1'; // not allowed since _id is readonly

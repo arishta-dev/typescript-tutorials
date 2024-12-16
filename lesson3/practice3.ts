@@ -33,4 +33,7 @@
 7.  Create a function called 'handleError' that:
     - Takes an error message as a parameter
     - Throws an error with that message
+
+8. Create a function called `logUsernames` that takes a 
+   variable number of usernames as parameters and logs each username to the console.
 */
