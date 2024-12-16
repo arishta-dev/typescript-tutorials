@@ -37,12 +37,18 @@ function createUser(id: number, username: string, email: string, role: UserRole,
         role, 
         active,
         loginDates: []
-    }
+    } // this is the shorthand mapping notation (used when the property name is same as the variable name)
+    // you can only use this notation when the variables name are same
+    // Alternate way 
+    /*
+    return {id: id, username: username, email: email, role: role, active: active, loginDates: loginDates};
+    */
 }
 
 // 4. Create a function to update a user's role
 function updateUserRole(user: User, userRole: UserRole): User | null {
-    user.role = userRole;
+    user.role = userRole; // Dot notation (more common, can be used when you know the exact name of the property)
+    // user['role] = userRole // Bracket notation  (used when the property name is dynamic, for eg. when the property name is computed at runtime)
     return user;
 }
 
