@@ -27,9 +27,9 @@ To get started with these tutorials, you'll need to have Node.js and npm install
    cd typescript-tutorials
    ```
 
-2. Install TypeScript globally:
+2. Install the dependencies:
    ```bash
-   npm install -g typescript
+   npm install 
    ```
 
 3. Compile and run a TypeScript file:
