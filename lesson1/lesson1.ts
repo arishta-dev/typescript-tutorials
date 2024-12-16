@@ -23,3 +23,7 @@ let anyVar: any = "hello";
 anyVar = 42;        // OK
 anyVar = true;      // OK
 anyVar = [1, 2, 3]; // OK -
+
+// 8. type of -> used to find the type of the variable
+let name: string | boolean = "arishta";
+console.log(typeof(name));
