@@ -8,8 +8,35 @@
 
 // 1. For loops
 const numbers: number[] = [1,2,4];
-for(let i = 0;i<=2;i++){
-    console.log(i);
+for (let i = 0; i < numbers.length; i++) { 
+    console.log(numbers[i]);
 }
 
-// 2. For each loop
+// For each loop
+
+numbers.forEach((number)=>{console.log(number)});
+
+// 2. Array filter method 
+// creates a new array with the elements that pass the condition specified
+const evenNumbers = numbers.filter(num => num%2 === 0);
+console.log("Filetered even numbers: ", evenNumbers);
+
+// 3. Map methhod 
+// creates a new array with the elements populated with the results of calling the function 
+const squaredNumbers = numbers.map(number => number*number);
+console.log("Squared numbers", squaredNumbers);
+
+// 4. Reduce method 
+const sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+console.log("Sum of Numbers:", sum); // Output: 15
+
+
+// 5. Chaining 
+const totalEvenSquares = numbers
+    .filter((number)=>number % 2=== 0) // Filter the elements with even nums
+    .map((number => number *number)) // square the elements
+    .reduce((acc, curr) => acc + curr, 0);  // sum them up 
+
+console.log("Total of even squares: "+totalEvenSquares);
+
+export {};
