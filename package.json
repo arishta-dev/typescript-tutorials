@@ -1,0 +1,23 @@
+{
+  "name": "typescript_tutorials",
+  "version": "1.0.0",
+  "description": "Welcome to the TypeScript Tutorials repository! This project is designed to help you learn and master TypeScript, a powerful, statically typed superset of JavaScript that compiles to plain JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arishta-dev/typescript-tutorials.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arishta-dev/typescript-tutorials/issues"
+  },
+  "homepage": "https://github.com/arishta-dev/typescript-tutorials#readme",
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}

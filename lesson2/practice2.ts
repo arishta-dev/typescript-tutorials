@@ -32,9 +32,9 @@ Task 3: Create an Enum for Academic Years
 
 
 /* 
-Task 4: Create a Union Type
+Task 4: 
 - Create a type called CourseGrade that can be either:
-  - A letter grade (string): "A", "B", "C", "D", "F"
+  - A letter grade (string): "A", "B", "C", "D", "F" (union type)
   - A number grade (number): 0-100
 */
 

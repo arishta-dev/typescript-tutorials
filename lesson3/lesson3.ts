@@ -3,11 +3,11 @@
 // 1. Basic function declaration 
 
 function greet(name: string){
-    console.log(`Hell ${name}`);
+    console.log(`Hello ${name}`);
 }
 
 // arrow function version
-const greet2 = (name: string) =>{console.log(`Hell ${name}`)};
+const greet2 = (name: string) =>{console.log(`Hello ${name}`)};
 
 // 2. Adding the return type of functions 
 
