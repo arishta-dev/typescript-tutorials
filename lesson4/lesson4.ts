@@ -18,6 +18,8 @@ numbers.forEach((number)=>{console.log(number)});
 
 // 2. Array filter method 
 // creates a new array with the elements that pass the condition specified
+// it takes one callback function as an arg 
+// the callback function must return true or false, if true, the element is included, else not
 const evenNumbers = numbers.filter(num => num%2 === 0);
 console.log("Filetered even numbers: ", evenNumbers);
 
@@ -27,6 +29,16 @@ const squaredNumbers = numbers.map(number => number*number);
 console.log("Squared numbers", squaredNumbers);
 
 // 4. Reduce method 
+
+// array.reduce((acc, curr) => { ... }, initValue);
+/* first arg: callback function 
+
+ (x, y) => { return x + y; };
+ is equivalent to
+ (x, y) => x + y; // shorthand notation 
+ */
+// second arg: initial value
+
 const sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
 console.log("Sum of Numbers:", sum); // Output: 15
 
