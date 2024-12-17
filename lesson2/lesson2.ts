@@ -39,6 +39,10 @@ let color: Color = Color.Red;
 // 6. Union Type (can be one of multiple types)
 let unionVar: string | number = "hello";
 unionVar = 42; // also valid
+const data: (number | string) [] = [1, "2", 3]; // allows mix of number or string
+const data2: any = [1, "2", "3"] // another way but not recommended (avoid any)
+const data3: (number[] | string[]) = ["1", "2", "3"]; // alows only numbers array or only string array (not both)
+let seatAllotment: "aisle" | "middle" | "window" 
 
 // 7. Intersection Type (must have all properties of both types)
 type Person = { name: string; age: number };
